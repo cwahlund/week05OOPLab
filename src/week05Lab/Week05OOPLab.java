@@ -138,6 +138,7 @@ public class Week05OOPLab {
 	private static Map<String, List<Card>> dealCards(int players){
 		Map<String, List<Card>> cardMap = new HashMap<String, List<Card>>();
 		
+		// card games are generally dealt hands of equal sizes, if there's a special one we can modify here
 		int numOfCards = 52 / players;
 		List<String> playerNames = new ArrayList<String>();
 		
